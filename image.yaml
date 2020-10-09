@@ -1,11 +1,11 @@
-name: "amq7/amq-streams-rhel7-operator-metadata"
-version: "1.5.0"
+name: "cpaas-test-brew-cekit-operator"
+version: "1.0.0"
 from: "scratch"
-description: "AMQ Streams image containing the operator metadata"
+description: "Example metadata image"
 
 labels:
   - name: "com.redhat.component"
-    value: "amqstreams-bundle-container"
+    value: "cpaas-test-bundle-container"
   - name: "io.k8s.description"
     value: "Operator metadata"
   - name: "io.k8s.display-name"
@@ -18,4 +18,4 @@ artifacts:
     dest: "/manifests"
 
   - path: "metadata"
-    dest: /metadata
+    dest: "/metadata"
