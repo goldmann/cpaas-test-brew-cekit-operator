@@ -1,11 +1,11 @@
-name: "cpaas-test-brew-cekit-operator"
+name: "cpaas-test-cekit-operator-bundle"
 version: "1.0.0"
 from: "scratch"
 description: "Example metadata image"
 
 labels:
   - name: "com.redhat.component"
-    value: "cpaas-test-bundle-container"
+    value: "cpaas-test-cekit-operator-bundle"
   - name: "io.k8s.description"
     value: "Operator metadata"
   - name: "io.k8s.display-name"
